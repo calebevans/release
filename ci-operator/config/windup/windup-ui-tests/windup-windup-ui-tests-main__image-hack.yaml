@@ -6,7 +6,7 @@ build_root:
 images:
 - context_dir: .
   dockerfile_path: dockerfiles/interop/Dockerfile
-  to: mtr-runner
+  to: mtr-runner-test
 releases:
   latest:
     candidate:
